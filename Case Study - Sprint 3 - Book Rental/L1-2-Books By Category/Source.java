@@ -8,6 +8,8 @@ public class Switch {
     //...
     public static void main(String[] args) {        
         Scanner sc = new Scanner(System.in);
+        
+        while(sc.hasNextLine()){
         String x = sc.nextLine();        
         switch(x) {            
             case "academics":
@@ -24,6 +26,7 @@ public class Switch {
                 break;
             default:
                 System.out.println("No Books Available");
+        }
         }
     }
 }
